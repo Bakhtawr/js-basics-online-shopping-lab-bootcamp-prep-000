@@ -16,12 +16,12 @@ function addToCart(item) {
  console.log('${item} hac been added to your cart.');
 
  return cart;
-   
+
    break;
 }
 
 function viewCart() {
-  
+
   const l = cart.length;
 
   if(!l)
